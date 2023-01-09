@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
-import compression from 'compression';
+import * as compression from 'compression';
 import helmet from 'helmet';
 import { useContainer } from 'class-validator';
 
